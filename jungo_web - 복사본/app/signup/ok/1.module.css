@@ -1,0 +1,15 @@
+.svg_style {
+    display: flex;
+    justify-content: center;
+}
+
+.svg_style_01 {
+    margin-top: 70px;
+}
+
+.h1_style {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    font-family: 'PretendardVariable', sans-serif;
+}

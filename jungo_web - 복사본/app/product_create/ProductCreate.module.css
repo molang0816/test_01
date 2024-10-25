@@ -1,0 +1,73 @@
+.form_01 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.top_container {
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.container_margin {
+    flex-direction: column;
+    margin: 8px;
+    font-family: 'PretendardVariable', sans-serif;
+}
+
+.img_preview {
+    margin: 8px;
+    padding: 8px;
+    background-color: #f1f4f6;
+    width: 624px;
+    border-radius: 8px;
+}
+
+.img_style {
+    border-radius: 8px;
+}
+
+.input_01 {
+    width: 600px;
+    padding: 10px 20px;
+    margin: 8px;
+    border: 0;
+    background-color: #f1f4f6;
+    border-radius: 8px;
+    font-family: 'PretendardVariable', sans-serif;
+}
+
+.input_02 {
+    width: 600px;
+    height: 50px;
+    padding: 10px 20px;
+    margin: 8px;
+    border: 0;
+    background-color: #f1f4f6;
+    border-radius: 8px;
+    font-family: 'PretendardVariable', sans-serif;
+}
+
+.button_01 {
+    color: white;
+    height: 40px;
+    padding: 10px;
+    margin: 8px;
+    background-color: black;
+    border: 0;
+    border-radius: 8px;
+    font-family: 'PretendardVariable', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.button_01:hover {
+    background-color: #000000b9;
+    cursor: pointer;
+}

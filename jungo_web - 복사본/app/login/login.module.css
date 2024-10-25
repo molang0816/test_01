@@ -1,0 +1,124 @@
+.h3_style {
+    display: flex;
+    justify-content: center;
+    margin: 50px 12vw;
+    padding: 0 4vw;
+    font-family: 'PretendardVariable', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: #2c2c2c;
+}
+
+.img_container {
+    display: flex;
+    justify-content: center;
+    margin: 0px 12vw 70px 12vw;
+    padding: 0 4vw;
+}
+
+.img_style {
+    height: 190px;
+    width: auto;
+}
+
+.box_top {
+    display: flex;
+    justify-content: center;
+}
+
+.box_container {
+    border-radius: 10px;
+    background-color: #f1f4f6;
+    margin: 0 0 100px 0;
+    width: 450px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.button_top {
+    flex-direction: column;
+    gap: 20px;
+    justify-content: end;
+}
+
+.id_container {
+    width: 352.94px;
+    /* px로 변환 */
+    height: 45px;
+    padding: 0 20px;
+    box-sizing: border-box;
+    border: 0;
+    border-radius: 8px;
+    outline: none;
+    font-family: 'PretendardVariable', sans-serif;
+}
+
+.button_container {
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    border: 0;
+    width: 352.94px;
+    /* px로 변환 */
+    height: 45px;
+    cursor: pointer;
+    font-family: 'PretendardVariable', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.button_gap {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 50px 0 90px 0;
+    gap: 20px;
+}
+
+.button_container_01 {
+    background-image: url(/image/login_png/Group\ 3.svg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    border-radius: 8px;
+    border: 0;
+    width: 352.94px;
+    /* px로 변환 */
+    height: 52.94px;
+    /* px로 변환 */
+    cursor: pointer;
+    font-family: 'PretendardVariable', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 0;
+}
+
+.button_container_02 {
+    background-image: url(/image/login_png/Group\ 4.svg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    border-radius: 8px;
+    border: 0;
+    width: 352.94px;
+    /* px로 변환 */
+    height: 52.94px;
+    /* px로 변환 */
+    cursor: pointer;
+    font-family: 'PretendardVariable', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 0;
+}
+
+.button_container:hover {
+    background-color: #000000b9;
+}
+
+.error_message {
+    margin-top: 15px;
+    color: tomato;
+}

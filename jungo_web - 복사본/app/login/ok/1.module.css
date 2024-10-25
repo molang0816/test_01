@@ -1,0 +1,29 @@
+.svg_style {
+    display: flex;
+    justify-content: center;
+}
+
+.svg_style_01 {
+    margin-top: 70px;
+}
+
+.h1_style {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    font-family: 'PretendardVariable', sans-serif;
+}
+
+.a_style_01 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    font-family: 'PretendardVariable', sans-serif;
+    font-size: 18px;
+    color: black;
+}
+
+.a_style_01:hover {
+    color: tomato;
+}

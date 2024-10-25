@@ -1,0 +1,38 @@
+.typing-animation {
+    font-family: 'PretendardVariable', sans-serif;
+    font-size: 30px;
+    font-weight: 650;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 4px solid;
+    animation: typing 4s steps(24, end) forwards, blink 0.8s step-end infinite;
+    margin: 20px 0;
+}
+
+.typing-animation_01 {
+    font-family: 'PretendardVariable', sans-serif;
+    font-size: 30px;
+    font-weight: 650;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 4px solid;
+    animation: typing 4s steps(24, end) forwards, blink 0.8s step-end infinite;
+}
+
+@keyframes typing {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 100%; /* 전체 텍스트 길이로 확장 */
+    }
+}
+
+@keyframes blink {
+    from, to {
+        border-color: transparent;
+    }
+    50% {
+        border-color: black;
+    }
+}

@@ -1,0 +1,38 @@
+.box_top {
+    display: flex;
+    justify-content: center;
+}
+
+.box_container {
+    width: 450px;
+    height: 600px;
+    background-color: #f1f4f6;
+    border-radius: 10px;
+    margin: 50px;
+    padding: 0 0 50px 0;
+    display: flex;
+    /* 추가 */
+    flex-direction: column;
+    /* 추가 */
+    align-items: center;
+    /* 추가 */
+    justify-content: center;
+    /* 추가 */
+}
+
+.div_style {
+    display: flex;
+    justify-content: center;
+}
+
+.div_style_01 {
+    margin-bottom: 40px;
+    width: 450px;
+    /* 너비 고정 */
+    height: 200px;
+    /* 높이 고정 */
+    max-height: 200px;
+    /* 최대 높이 설정 */
+    padding: 0 50px;
+    box-sizing: border-box;
+}

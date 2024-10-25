@@ -1,0 +1,96 @@
+.div_banner {
+    margin: 50px 12vw 0 12vw;
+    padding: 0 4vw;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img_style {
+    width: 100%;
+    height: auto;
+}
+
+.dot_container {
+    display: flex;
+    justify-content: center;
+    margin: 8px 0;
+}
+
+.dot {
+    height: 8px;
+    width: 8px;
+    margin: 0 5px;
+    background-color: #bbb; /* 기본 색상 */
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.active_dot {
+    background-color: #717171; /* 활성화된 점 색상 */
+}
+
+
+.h3_style_01 {
+    display: flex;
+    margin: 25px 12vw;
+    padding: 0 4vw;
+    box-sizing: border-box;
+    align-items: center;
+    font-family: 'PretendardVariable', sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    color: #2c2c2c;
+}
+
+.div_banner_01 {
+    margin: 25px 12vw;
+    padding: 0 4vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.product_list {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+}
+
+.product_item {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.item_image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.name_price_style {
+    padding: 8px 16px;
+    text-align: left;
+}
+
+.item_name {
+    color: #838383;
+    font-size: 0.95em;
+    margin: 10px 0 5px;
+    /* 여백 추가 */
+    font-family: 'PretendardVariable', sans-serif;
+    font-weight: 550;
+    text-decoration: none;
+}
+
+.item_price {
+    color: black;
+    font-size: 1.1em;
+    /* 가격 색상 */
+    margin: 8px 0 0 0;
+    font-family: 'PretendardVariable', sans-serif;
+    font-weight: 650;
+    text-decoration: none;
+}
